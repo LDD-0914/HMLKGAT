@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="20721b6e-197c-49d3-a406-7b67565781ad" name="xshell">
+        <fileTransfer rootFolder="/home/ldd/GATL" accessType="SFTP" host="10.102.65.83" port="22" sshConfigId="7b2f6985-1e78-4252-b24f-04df24667ec5" sshConfig="ldd@10.102.65.83:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2eb22436-67f3-4c7f-8c11-d269528db2f7" name="x">
+        <fileTransfer rootFolder="/home/ldd/anaconda3/envs/py38" accessType="SFTP" host="10.102.65.83" port="22" sshConfigId="7b2f6985-1e78-4252-b24f-04df24667ec5" sshConfig="ldd@10.102.65.83:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
